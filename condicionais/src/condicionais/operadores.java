@@ -1,5 +1,35 @@
 package condicionais;
 
 public class operadores {
+	public static void main (String[] args) {
+		//calcula a area de uma circunferencia com raio 12, onde PI = 3.1415 e area = PI * r²
+		
+		int raio = 12;
+		float pi = 3.1415f, area;
+		
+		area = (float) (pi * Math.pow(raio,2));
+		
+		System.out.println("Area:", area);
+		
+		//calcule o resto da divisao de 99 por 4
+		
+		int resto;
+		
+		resto = 99 % 4;
+		
+		System.out.println("Resto:", resto );
+		
+		//divida um numero por dois sem utilizar o operador /
+		
+		int div;
+		
+		//multiplique um numero por 8 sem utilizar o operador *
+		
+		 int a = 8;
+		 for (i = 0, i = 9, i++) {
+			 System.out.println(a);
+		 }
+		
+	}
 
 }
